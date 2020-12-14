@@ -19,6 +19,7 @@
 		A032C650258716DD00ED433B /* STRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A032C64E258716DC00ED433B /* STRootVC.xib */; };
 		A032C68B2587382800ED433B /* STSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A032C68A2587382800ED433B /* STSubVC.m */; };
 		A032C69125873CF400ED433B /* STGitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A032C69025873CF400ED433B /* STGitModel.m */; };
+		A095F21425875EA50037D9C4 /* STGitTestJS.m in Sources */ = {isa = PBXBuildFile; fileRef = A095F21325875EA50037D9C4 /* STGitTestJS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		A032C68A2587382800ED433B /* STSubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSubVC.m; sourceTree = "<group>"; };
 		A032C68F25873CF400ED433B /* STGitModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STGitModel.h; sourceTree = "<group>"; };
 		A032C69025873CF400ED433B /* STGitModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STGitModel.m; sourceTree = "<group>"; };
+		A095F21225875EA50037D9C4 /* STGitTestJS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STGitTestJS.h; sourceTree = "<group>"; };
+		A095F21325875EA50037D9C4 /* STGitTestJS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STGitTestJS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +199,8 @@
 		A095F21125875E0F0037D9C4 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				A095F21225875EA50037D9C4 /* STGitTestJS.h */,
+				A095F21325875EA50037D9C4 /* STGitTestJS.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				A032C64F258716DD00ED433B /* STRootVC.m in Sources */,
 				A032C6232587167D00ED433B /* main.m in Sources */,
 				A032C6152587167A00ED433B /* SceneDelegate.m in Sources */,
+				A095F21425875EA50037D9C4 /* STGitTestJS.m in Sources */,
 				A032C69125873CF400ED433B /* STGitModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
