@@ -113,6 +113,7 @@
 		A032C60F2587167A00ED433B /* CourseProject */ = {
 			isa = PBXGroup;
 			children = (
+				A095F21125875E0F0037D9C4 /* GitTest */,
 				A032C65A2587183C00ED433B /* Assist */,
 				A032C649258716AC00ED433B /* Model */,
 				A032C648258716AC00ED433B /* View */,
@@ -190,6 +191,13 @@
 				A032C65B2587185700ED433B /* PrefixHeader.pch */,
 			);
 			path = Assist;
+			sourceTree = "<group>";
+		};
+		A095F21125875E0F0037D9C4 /* GitTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
