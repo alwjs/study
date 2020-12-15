@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,13 @@
 		A095F21425875EA50037D9C4 /* STGitTestJS.m in Sources */ = {isa = PBXBuildFile; fileRef = A095F21325875EA50037D9C4 /* STGitTestJS.m */; };
 		A095F21A25875F400037D9C4 /* STDesignModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A095F21925875F400037D9C4 /* STDesignModel.m */; };
 		A095F22025877A4E0037D9C4 /* STPodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A095F21F25877A4E0037D9C4 /* STPodModel.m */; };
+		A0E8F7AB2588C367004231F4 /* STIntroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7AA2588C367004231F4 /* STIntroModel.m */; };
+		A0E8F7B12588C4C8004231F4 /* STGrammarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7B02588C4C8004231F4 /* STGrammarModel.m */; };
+		A0E8F7B72588C5F5004231F4 /* STFeatureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7B62588C5F5004231F4 /* STFeatureModel.m */; };
+		A0E8F7BD2588C667004231F4 /* STCPEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7BC2588C667004231F4 /* STCPEModel.m */; };
+		A0E8F7C32588C6B0004231F4 /* STStringModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7C22588C6B0004231F4 /* STStringModel.m */; };
+		A0E8F7C92588C6C4004231F4 /* STArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7C82588C6C4004231F4 /* STArrayModel.m */; };
+		A0E8F7CF2588C6DF004231F4 /* STDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E8F7CE2588C6DE004231F4 /* STDicModel.m */; };
 		F30E8E851DB8BAA60326839F /* Pods_CourseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1541B26BCBB364D0ACC979C9 /* Pods_CourseProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +88,20 @@
 		A095F21925875F400037D9C4 /* STDesignModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDesignModel.m; sourceTree = "<group>"; };
 		A095F21E25877A4E0037D9C4 /* STPodModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPodModel.h; sourceTree = "<group>"; };
 		A095F21F25877A4E0037D9C4 /* STPodModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPodModel.m; sourceTree = "<group>"; };
+		A0E8F7A92588C367004231F4 /* STIntroModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STIntroModel.h; sourceTree = "<group>"; };
+		A0E8F7AA2588C367004231F4 /* STIntroModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STIntroModel.m; sourceTree = "<group>"; };
+		A0E8F7AF2588C4C8004231F4 /* STGrammarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STGrammarModel.h; sourceTree = "<group>"; };
+		A0E8F7B02588C4C8004231F4 /* STGrammarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STGrammarModel.m; sourceTree = "<group>"; };
+		A0E8F7B52588C5F5004231F4 /* STFeatureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFeatureModel.h; sourceTree = "<group>"; };
+		A0E8F7B62588C5F5004231F4 /* STFeatureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFeatureModel.m; sourceTree = "<group>"; };
+		A0E8F7BB2588C667004231F4 /* STCPEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCPEModel.h; sourceTree = "<group>"; };
+		A0E8F7BC2588C667004231F4 /* STCPEModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCPEModel.m; sourceTree = "<group>"; };
+		A0E8F7C12588C6B0004231F4 /* STStringModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STStringModel.h; sourceTree = "<group>"; };
+		A0E8F7C22588C6B0004231F4 /* STStringModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STStringModel.m; sourceTree = "<group>"; };
+		A0E8F7C72588C6C4004231F4 /* STArrayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STArrayModel.h; sourceTree = "<group>"; };
+		A0E8F7C82588C6C4004231F4 /* STArrayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STArrayModel.m; sourceTree = "<group>"; };
+		A0E8F7CD2588C6DE004231F4 /* STDicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STDicModel.h; sourceTree = "<group>"; };
+		A0E8F7CE2588C6DE004231F4 /* STDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STDicModel.m; sourceTree = "<group>"; };
 		AEF34B47E33ADC8E293A00DC /* Pods-CourseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CourseProjectTests/Pods-CourseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		B883AC1BBD29008EDB9BDCFE /* Pods-CourseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProject.debug.xcconfig"; path = "Target Support Files/Pods-CourseProject/Pods-CourseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		BFC6983F300E0B449AD232BA /* Pods-CourseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CourseProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CourseProjectTests/Pods-CourseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +155,6 @@
 				BFC6983F300E0B449AD232BA /* Pods-CourseProjectTests.debug.xcconfig */,
 				AEF34B47E33ADC8E293A00DC /* Pods-CourseProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -216,6 +236,7 @@
 				A095F21925875F400037D9C4 /* STDesignModel.m */,
 				A095F21E25877A4E0037D9C4 /* STPodModel.h */,
 				A095F21F25877A4E0037D9C4 /* STPodModel.m */,
+				A0E8F7A82588C321004231F4 /* OC */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,6 +275,27 @@
 				A095F21325875EA50037D9C4 /* STGitTestJS.m */,
 			);
 			path = GitTest;
+			sourceTree = "<group>";
+		};
+		A0E8F7A82588C321004231F4 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8F7A92588C367004231F4 /* STIntroModel.h */,
+				A0E8F7AA2588C367004231F4 /* STIntroModel.m */,
+				A0E8F7AF2588C4C8004231F4 /* STGrammarModel.h */,
+				A0E8F7B02588C4C8004231F4 /* STGrammarModel.m */,
+				A0E8F7B52588C5F5004231F4 /* STFeatureModel.h */,
+				A0E8F7B62588C5F5004231F4 /* STFeatureModel.m */,
+				A0E8F7BB2588C667004231F4 /* STCPEModel.h */,
+				A0E8F7BC2588C667004231F4 /* STCPEModel.m */,
+				A0E8F7C12588C6B0004231F4 /* STStringModel.h */,
+				A0E8F7C22588C6B0004231F4 /* STStringModel.m */,
+				A0E8F7C72588C6C4004231F4 /* STArrayModel.h */,
+				A0E8F7C82588C6C4004231F4 /* STArrayModel.m */,
+				A0E8F7CD2588C6DE004231F4 /* STDicModel.h */,
+				A0E8F7CE2588C6DE004231F4 /* STDicModel.m */,
+			);
+			path = OC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,14 +537,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A032C68B2587382800ED433B /* STSubVC.m in Sources */,
+				A0E8F7C32588C6B0004231F4 /* STStringModel.m in Sources */,
 				A032C6122587167A00ED433B /* AppDelegate.m in Sources */,
 				A032C64F258716DD00ED433B /* STRootVC.m in Sources */,
+				A0E8F7B12588C4C8004231F4 /* STGrammarModel.m in Sources */,
+				A0E8F7AB2588C367004231F4 /* STIntroModel.m in Sources */,
 				A095F22025877A4E0037D9C4 /* STPodModel.m in Sources */,
 				A032C6232587167D00ED433B /* main.m in Sources */,
 				A095F21A25875F400037D9C4 /* STDesignModel.m in Sources */,
+				A0E8F7C92588C6C4004231F4 /* STArrayModel.m in Sources */,
 				A032C6152587167A00ED433B /* SceneDelegate.m in Sources */,
 				A095F21425875EA50037D9C4 /* STGitTestJS.m in Sources */,
 				A032C69125873CF400ED433B /* STGitModel.m in Sources */,
+				A0E8F7BD2588C667004231F4 /* STCPEModel.m in Sources */,
+				A0E8F7B72588C5F5004231F4 /* STFeatureModel.m in Sources */,
+				A0E8F7CF2588C6DF004231F4 /* STDicModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
