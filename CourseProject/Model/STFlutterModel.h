@@ -20,6 +20,20 @@ NS_ASSUME_NONNULL_END
 
 /*********************************************
  *
+ *flutter是google开发的开源移动UI框架
+ *
+ *特点就是跨平台、高性能，可以快速在iOS和Android搭建app
+ *
+ *
+ *flutter是基于dart语言
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  *  安装flutter
  *cd到安装目录
  *
