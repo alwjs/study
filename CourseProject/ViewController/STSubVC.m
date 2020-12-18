@@ -6,6 +6,7 @@
 //
 
 #import "STSubVC.h"
+#import "STDebugModel.h"
 
 @interface STSubVC ()
 
@@ -17,7 +18,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    switch (_courseType) {
+        case Course_Build:
+        {
+            STDebugModel *debugModel = [[STDebugModel alloc] init];
+
+            
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 /*

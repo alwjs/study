@@ -8,6 +8,10 @@
 #import "STRootVC.h"
 #import "STSubVC.h"
 
+
+
+
+
 @interface STRootVC ()
 @property (weak, nonatomic) IBOutlet UITableView *showTbv;
 
@@ -19,6 +23,8 @@
     [super viewDidLoad];
     self.navigationItem.title = @"培训课程";
     // Do any additional setup after loading the view from its nib.
+  
+    
     
 }
 
@@ -73,7 +79,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 8;
+    return 7;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -128,16 +134,23 @@
             break;
         case 6:
         {
-            cell.textLabel.text = @"Masonry框架应用";
-            
+            cell.textLabel.text = @"Flutter框架应用";
+
             return cell;
         }
             break;
         case 7:
         {
+            cell.textLabel.text = @"Masonry框架应用";
+
+            return cell;
+        }
+            break;
+        case 8:
+        {
             cell.textLabel.text = @"Flutter框架应用";
             
-            return cell;
+            return nil;
         }
             break;
             

@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface STDebugModel : NSObject
 
+@property(nonatomic,copy)NSString *userID;
+@property(nonatomic,copy)NSString *userName;
+@property(nonatomic,copy)NSString *pwd;
 
 
 @end
@@ -33,7 +36,7 @@ NS_ASSUME_NONNULL_END
  *
  *ignore 忽视断点次数
  *
- *
+ *demo:当登录时，会有多次的网路访问，此时我们可以忽略前面固定次数的网路访问，来给需要的情况下断。
  *
  *异常断点
  *exception breakpoint
@@ -45,15 +48,21 @@ NS_ASSUME_NONNULL_END
  *符号断点
  *Symbolic Breakpoint
  *
+ *
+ *
  *符号断点的创建也同异常断点。一般符号断点可以在你指定的[类名 方法名]时中断执行
  *
  *[UIViewController viewDidLoad];
 
  *或者 viewDidLoad
  *
+
  *
  *lldb命令
  *po命令、print命令在断点中可以输出变量
+ *
+ *thread 可以查看不同条件分支结果
+ *
  *
  *
  *
