@@ -8,6 +8,13 @@ target 'CourseProject' do
   # Pods for CourseProject
 pod 'AFNetworking'
 
+
+ ## Flutter 模块的路径
+  flutter_application_path = '/Users/wangjisheng/Desktop/study/flutterapp/fighting_flutter_common_user'
+  eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')),    binding)
+
+
+
   target 'CourseProjectTests' do
     inherit! :search_paths
     # Pods for testing

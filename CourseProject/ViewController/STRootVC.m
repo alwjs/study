@@ -57,6 +57,10 @@
     vc.navigationItem.title = cell.textLabel.text;
     [self.navigationController pushViewController:vc animated:YES];
     
+
+    
+
+    
 }
 
 

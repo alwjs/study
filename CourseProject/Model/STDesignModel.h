@@ -23,6 +23,34 @@ NS_ASSUME_NONNULL_END
  *  mvc
  *  model-view-controller
  *
+ *1. MVC
+ 1.1  是什么
+     是一个大型综合的设计模式
+         设计模式是解决某一类问题的一种最优的办法
+ 1.2 为什么要用设计模式
+     可重用性，可扩展性，可维护性
+     苹果的系统大量使用设计模式
+ 1.3 MVC 简介
+     M:   Model              模型
+             处理数据和业务逻辑， 保存数据，业务计算，网络通信
+     V:    View                视图
+             给用户提供界面显示，接收用户的输入
+     C:    Controller     控制器
+         控制程序流程及跳转， 协调View和Model之间的工作
+
+
+     CV:
+          C—>V(IBOutlet)
+         V—>C(Target-Action, Delegate)
+     CM:
+         C—>M
+         M 不能直接访问C， 但可以用通知的方式发消息
+     MV:
+         M和V不可以通信
+
+ *
+ *
+ *
  *  mvvm
  *  model-view-viewmodel
  *
